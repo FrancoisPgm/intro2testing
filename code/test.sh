@@ -25,7 +25,7 @@ else
   ec=1
 fi
 
-echo "The second test is supossed to fail, exit with success."
+echo "The second test is supossed to fail, exit with success if the second test failed."
 if [ $ec -eq 1 ]
 then 
   exit 0
